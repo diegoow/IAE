@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_item_type" table="x_248786_iae_item_revision" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_item_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phantom</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 19:00:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>074ce6d4db571300ee0bdde748961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:00:18</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_item_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Assemby</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 19:00:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>474ce6d4db571300ee0bdde748961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:00:18</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_item_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fabricated</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 19:00:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c34ce6d4db571300ee0bdde748961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:00:18</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_item_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Raw Material</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 19:00:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>434ce6d4db571300ee0bdde748961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:00:18</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_item_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Purchased</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 19:00:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf4ce6d4db571300ee0bdde748961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:00:18</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_item_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>User option</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 19:00:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f4ce6d4db571300ee0bdde748961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:00:18</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_item_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Feature</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 19:00:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb4ce6d4db571300ee0bdde748961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:00:18</sys_updated_on>
+            <value>F</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_item_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kit</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 19:00:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b4ce6d4db571300ee0bdde748961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:00:18</sys_updated_on>
+            <value>K</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_item_type</element>
+            <name>x_248786_iae_item_revision</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 19:00:18</sys_created_on>
+            <sys_id>034ce6d4db571300ee0bdde748961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_item_type</sys_name>
+            <sys_package display_value="IAE" source="x_248786_iae">7e058618dbd31300ee0bdde7489619e1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IAE">7e058618dbd31300ee0bdde7489619e1</sys_scope>
+            <sys_update_name>sys_choice_x_248786_iae_item_revision_u_item_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:00:18</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

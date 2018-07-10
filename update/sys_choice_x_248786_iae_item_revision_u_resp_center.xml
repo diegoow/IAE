@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_resp_center" table="x_248786_iae_item_revision" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_resp_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CH1 TRB</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 19:07:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adfda618db571300ee0bdde74896193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:07:35</sys_updated_on>
+            <value>1000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_resp_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CH2 TRB</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 19:07:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>edfda618db571300ee0bdde74896193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:07:35</sys_updated_on>
+            <value>1001</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_resp_center</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ENGINEER</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 19:07:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6dfda618db571300ee0bdde74896193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:07:35</sys_updated_on>
+            <value>3003</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_resp_center</element>
+            <name>x_248786_iae_item_revision</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 19:07:35</sys_created_on>
+            <sys_id>a9fda618db571300ee0bdde74896193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_resp_center</sys_name>
+            <sys_package display_value="IAE" source="x_248786_iae">7e058618dbd31300ee0bdde7489619e1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IAE">7e058618dbd31300ee0bdde7489619e1</sys_scope>
+            <sys_update_name>sys_choice_x_248786_iae_item_revision_u_resp_center</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:07:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

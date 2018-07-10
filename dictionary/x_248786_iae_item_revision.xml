@@ -1,4 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Item Revision" max_length="40" name="x_248786_iae_item_revision" type="collection"/>
+    <element label="Item Revision" max_length="40" name="x_248786_iae_item_revision" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Instance_ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Batch Lot Control" max_length="40" name="u_batch_lot_control" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Current Step" mandatory="true" max_length="40" name="u_current_step" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Drawing Number" mandatory="true" max_length="40" name="u_drawing_number" type="string"/>
+        <element default="true" label="Inspect on Receit" max_length="40" name="u_inspect_on_receipt" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Inventory Code" max_length="40" name="u_inventory_code" type="string">
+            <choice>
+                <element label="Inventory" sequence="0" value="1"/>
+                <element label="Miscellaneous" sequence="1" value="2"/>
+                <element label="Service" sequence="2" value="3"/>
+                <element label="Unstocked" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Item" max_length="40" name="u_item" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="AAJF" label="Item Class" max_length="40" name="u_item_class" type="string">
+            <choice>
+                <element label="Cone Montado Acabado" sequence="0" value="AAJF"/>
+                <element label="Rolamento Fabricado" sequence="1" value="ABCF"/>
+                <element label="Rolamento Comprado Grupo" sequence="2" value="ABCG"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Item Description" mandatory="true" max_length="40" name="u_item_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Item Type" max_length="40" name="u_item_type" type="string">
+            <choice>
+                <element label="Phantom" sequence="0" value="0"/>
+                <element label="Assemby" sequence="1" value="1"/>
+                <element label="Fabricated" sequence="2" value="2"/>
+                <element label="Raw Material" sequence="3" value="3"/>
+                <element label="Purchased" sequence="4" value="4"/>
+                <element label="User option" sequence="5" value="5"/>
+                <element label="Feature" sequence="6" value="F"/>
+                <element label="Kit" sequence="7" value="K"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="planner 1" label="Planner" max_length="40" name="u_planner" type="string">
+            <choice>
+                <element label="Planner 1" sequence="0" value="planner 1"/>
+                <element label="Planner 2" sequence="1" value="planner 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="Quality Control" max_length="40" name="u_quality_control" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1001" label="Responsability Center" max_length="40" name="u_resp_center" type="string">
+            <choice>
+                <element label="CH1 TRB" sequence="0" value="1000"/>
+                <element label="CH2 TRB" sequence="1" value="1001"/>
+                <element label="ENGINEER" sequence="2" value="3003"/>
+            </choice>
+        </element>
+        <element label="Shelf Life Days" max_length="40" name="u_shelf_life_days" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="bra" label="Site" mandatory="true" max_length="40" name="u_site" type="string">
+            <choice>
+                <element label="KAY" sequence="0" value="kay"/>
+                <element label="MKT" sequence="1" value="mkt"/>
+                <element label="BRA" sequence="2" value="bra"/>
+                <element label="VSM" sequence="3" value="vsm"/>
+                <element label="FOR" sequence="4" value="for"/>
+                <element label="SFC" sequence="5" value="sfc"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="new item" label="Status" max_length="40" name="u_status" type="string">
+            <choice>
+                <element label="New Item" sequence="0" value="new item"/>
+                <element label="In Progress" sequence="1" value="in progress"/>
+                <element label="Cancelled" sequence="2" value="cancelled"/>
+                <element label="Finished" sequence="3" value="finished"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="cubic inch" label="Stocking UM" max_length="40" name="u_stocking_um" type="string">
+            <choice>
+                <element label="Standard Cubic Foot" sequence="0" value="standard cubic foot"/>
+                <element label="Year" sequence="1" value="year"/>
+                <element label="Barrel" sequence="2" value="barrel"/>
+                <element label="Bar" sequence="3" value="bar"/>
+                <element label="Cubic Inch" sequence="4" value="cubic inch"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Template" max_length="40" name="u_template" type="string">
+            <choice>
+                <element label="Item Fabricated - Factory" sequence="0" value="1"/>
+                <element label="Item Manufact - Factory" sequence="1" value="2"/>
+                <element label="Direct Material - Factory" sequence="2" value="3"/>
+                <element label="inDirect Material - Factory" sequence="3" value="4"/>
+                <element label="SKF Service Item - Factory" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Unit Weight" max_length="40" name="u_unit_weight" type="longint"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="PC" label="Weight UM" max_length="40" name="u_weight_um" type="string">
+            <choice>
+                <element label="Decigram" sequence="0" value="DG"/>
+                <element label="Foot" sequence="1" value="FT"/>
+                <element label="Piece" sequence="2" value="PC"/>
+            </choice>
+        </element>
+    </element>
 </database>

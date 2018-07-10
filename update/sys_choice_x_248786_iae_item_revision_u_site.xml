@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_site" table="x_248786_iae_item_revision" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_site</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KAY</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 16:53:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>024f0618db171300ee0bdde74896196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 16:53:32</sys_updated_on>
+            <value>kay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_site</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MKT</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 16:53:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>424f0618db171300ee0bdde74896196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 16:53:32</sys_updated_on>
+            <value>mkt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_site</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BRA</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 16:53:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce4f0618db171300ee0bdde74896196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 16:53:32</sys_updated_on>
+            <value>bra</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_site</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VSM</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 16:53:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e4f0618db171300ee0bdde74896196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 16:53:32</sys_updated_on>
+            <value>vsm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_site</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FOR</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 16:53:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca4f0618db171300ee0bdde74896196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 16:53:32</sys_updated_on>
+            <value>for</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_site</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SFC</label>
+            <language>en</language>
+            <name>x_248786_iae_item_revision</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 16:53:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a4f0618db171300ee0bdde748961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 16:53:32</sys_updated_on>
+            <value>sfc</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_site</element>
+            <name>x_248786_iae_item_revision</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-10 16:53:32</sys_created_on>
+            <sys_id>0e4f0618db171300ee0bdde74896196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_site</sys_name>
+            <sys_package display_value="IAE" source="x_248786_iae">7e058618dbd31300ee0bdde7489619e1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IAE">7e058618dbd31300ee0bdde7489619e1</sys_scope>
+            <sys_update_name>sys_choice_x_248786_iae_item_revision_u_site</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-10 16:53:32</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
